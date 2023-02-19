@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="404px" height="532px" viewBox="0 0 404 532" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="WPHelper_Woocommerce_mauthongtinthanhtoan_macdinh" transform="translate(-1114.000000, -594.000000)">
+            <g id="Group-2" transform="translate(1114.000000, 595.000000)">
+                <g id="Group-11-Copy-3">
+                    <path d="M389.377484,530 L0,530 L0,0 L389.377484,0 C396.900518,0 403,9.4633896 403,21.129533 L403,508.870467 C403,520.541893 396.900518,530 389.377484,530" id="Fill-1" fill-opacity="0.5" fill="#F0EFF0"></path>
+                    <path d="M15.0733198,0 L389.371203,0 C396.89941,0 403,9.4607484 403,21.129533 L403,508.870467 C403,520.539252 396.89941,530 389.371203,530 L10,530" id="Stroke-9" stroke="#9F9F9F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5.956,5.956"></path>
+                </g>
+                <text id="Thông-tin-thanh-toán-Copy" font-family="Helvetica-Bold, Helvetica" font-size="13" font-weight="bold" line-spacing="17" letter-spacing="0.8125" fill="#333333">
+                    <tspan x="67" y="47">Thông tin thanh toán</tspan>
+                </text>
+                <text id="Họ" font-family="Helvetica" font-size="11" font-weight="normal" line-spacing="17" letter-spacing="0.6875" fill="#333333">
+                    <tspan x="67" y="70">Họ</tspan>
+                </text>
+                <text id="Tên-công-ty-Copy" font-family="Helvetica" font-size="11" font-weight="normal" line-spacing="17" letter-spacing="0.6875" fill="#333333">
+                    <tspan x="67" y="122">Tên công ty</tspan>
+                </text>
+                <text id="Quốc-gia/-Khu-vực-Copy" font-family="Helvetica" font-size="11" font-weight="normal" line-spacing="17" letter-spacing="0.6875" fill="#333333">
+                    <tspan x="67" y="174">Quốc gia/ Khu vực</tspan>
+                </text>
+                <text id="Tên" font-family="Helvetica" font-size="11" font-weight="normal" line-spacing="17" letter-spacing="0.6875" fill="#333333">
+                    <tspan x="207" y="70">Tên</tspan>
+                </text>
+                <rect id="Rectangle-Copy-2" fill="#FFFFFF" x="67" y="77" width="130" height="25"></rect>
+                <rect id="Rectangle-Copy-30" fill="#FFFFFF" x="67" y="129" width="270" height="25"></rect>
+                <rect id="Rectangle-Copy-97" fill="#FFFFFF" x="67" y="181" width="270" height="25"></rect>
+                <text id="Địa-chỉ-Copy" font-family="Helvetica" font-size="11" font-weight="normal" line-spacing="17" letter-spacing="0.6875" fill="#333333">
+                    <tspan x="67" y="226">Địa chỉ</tspan>
+                </text>
+                <rect id="Rectangle-Copy-98" fill="#FFFFFF" x="67" y="233" width="270" height="25"></rect>
+                <rect id="Rectangle-Copy-99" fill="#FFFFFF" x="67" y="263" width="270" height="25"></rect>
+                <text id="Tên-căn-hộ,-số-căn,…-Copy" font-family="Helvetica" font-size="11" font-weight="normal" line-spacing="17" letter-spacing="0.6875" fill="#DEDEDE">
+                    <tspan x="77" y="279">Tên căn hộ, số căn,…</tspan>
+                </text>
+                <text id="Mã-bưu-điện-Copy" font-family="Helvetica" font-size="11" font-weight="normal" line-spacing="17" letter-spacing="0.6875" fill="#333333">
+                    <tspan x="67" y="308">Mã bưu điện</tspan>
+                </text>
+                <rect id="Rectangle-Copy-100" fill="#FFFFFF" x="67" y="315" width="270" height="25"></rect>
+                <text id="Tỉnh/-Thành-phố-Copy" font-family="Helvetica" font-size="11" font-weight="normal" line-spacing="17" letter-spacing="0.6875" fill="#333333">
+                    <tspan x="67" y="360">Tỉnh/ Thành phố</tspan>
+                </text>
+                <rect id="Rectangle-Copy-101" fill="#FFFFFF" x="67" y="367" width="270" height="25"></rect>
+                <text id="Số-điện-thoại-Copy" font-family="Helvetica" font-size="11" font-weight="normal" line-spacing="17" letter-spacing="0.6875" fill="#333333">
+                    <tspan x="67" y="412">Số điện thoại</tspan>
+                </text>
+                <rect id="Rectangle-Copy-102" fill="#FFFFFF" x="67" y="419" width="270" height="25"></rect>
+                <text id="Địa-chỉ-email-Copy" font-family="Helvetica" font-size="11" font-weight="normal" line-spacing="17" letter-spacing="0.6875" fill="#333333">
+                    <tspan x="67" y="464">Địa chỉ email</tspan>
+                </text>
+                <rect id="Rectangle-Copy-103" fill="#FFFFFF" x="67" y="471" width="270" height="25"></rect>
+                <rect id="Rectangle-Copy-28" fill="#FFFFFF" x="207" y="77" width="130" height="25"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

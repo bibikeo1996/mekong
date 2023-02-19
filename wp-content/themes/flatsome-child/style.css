@@ -1,0 +1,174 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+Update by: LiemPham - ptliem1996@gmail.com
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+@font-face{font-family:"Roboto-Regular";
+font-weight:normal;
+font-style:normal;
+src:url("/wp-content/fonts/Roboto-Regular.ttf") format("truetype");
+font-display:swap
+}
+@font-face{font-family:"Roboto-Bold";
+font-weight:normal;
+font-style:normal;
+src:url("/wp-content/fonts/Roboto-Bold.ttf") format("truetype");
+font-display:swap
+}
+body{font-family:  "Roboto-Regular",  sans-serif}
+.nav > li > a {font-family:  "Roboto-Regular", sans-serif;}
+h1,h2,h3,h4,h5,h6, .heading-font{font-family: "Roboto-Regular", sans-serif;}
+.alt-font{font-family: "Roboto-Regular", sans-serif;}
+/*************** Nhúng font vào web ***************/
+
+/** General CSS **/
+a{color:#000}
+.nav>li>a:hover, .nav>li.active>a, .nav>li.current>a, .nav>li>a.active, .nav>li>a.current, .nav-dropdown li.active>a, .nav-column li.active>a, .nav-dropdown>li>a:hover, .nav-column li>a:hover, .nav-vertical-fly-out>li>a:hover,
+.active a{
+    color:#ecb94e !important;
+}
+
+.line_before{
+    position:relative;
+    padding-left:20px;
+}
+.line_before::after {
+    content: "";
+    border: 1px solid #ecb94e;
+    width: 17px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    background: #ecb94e;
+}
+
+/** CSS for header - Menu **/
+.nav-dropdown{padding:0;box-shadow: 1px 1px 15px rgb(0 0 0 / 15%);}
+#menu-verticalmenu>li>a:hover{
+    background-color: rgba(0,0,0,.03);
+}
+li.account-item.has-icon.has-dropdown.current-dropdown ul.nav-dropdown.nav-dropdown-simple,
+li.cart-item.has-icon.has-dropdown.current-dropdown ul.nav-dropdown.nav-dropdown-simple{
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #FFF;
+    padding-top: 10px;
+    color:#000;
+}
+li.cart-item.has-icon.has-dropdown.current-dropdown ul.nav-dropdown.nav-dropdown-simple{
+    width: 405px
+}
+p.woocommerce-mini-cart__total.total span{color:red;}
+p.woocommerce-mini-cart__buttons.buttons a{border-radius:5px;}
+a.remove.remove_from_cart_button{
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding: 2px 8px;
+    color: red;
+}
+
+/** CSS for title **/
+h1.entry-title{font-size:18px;}
+/** CSS for product page **/
+a.reset_variations{font-weight: bold;color:red !important;}
+nav.woocommerce-breadcrumb.breadcrumbs {font-size:14px;}
+nav.woocommerce-breadcrumb.breadcrumbs a:last-child{font-weight: bold;color:#000;}
+.product-main .quantity.buttons_added{display:none !important;}
+.single_add_to_cart_button{
+    opacity: 1 !important;
+    background-color: #fb6e2e !important;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    padding: 2px 10px;
+    text-align: center;
+    width: 100%;
+}
+.shop-page-title .flex-col.medium-text-center{font-size:14px;}
+select.orderby{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+}
+p.woocommerce-result-count{display:none;}
+/** CSS for button slide show **/
+.flickity-prev-next-button{
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.flickity-prev-next-button svg{
+    background-color: #ffffffba;
+    border: 1px solid #ccc;
+}
+
+/** CSS for divider **/
+h4.section-title.section-title-bold b,
+h3.section-title.section-title-bold b,
+h2.section-title.section-title-bold b,
+h1.section-title.section-title-bold b,
+h4.section-title.section-title-bold-center b,
+h3.section-title.section-title-bold-center b,
+h2.section-title.section-title-bold-center b,
+h1.section-title.section-title-bold-center b,
+h4.section-title.section-title-center b,
+h3.section-title.section-title-center b,
+h2.section-title.section-title-center b,
+h1.section-title.section-title-center b{
+    color:transparent !important;
+}
+h4.section-title.section-title-bold-center span,
+h3.section-title.section-title-bold-center span,
+h2.section-title.section-title-bold-center span,
+h1.section-title.section-title-bold-center span,
+h4.section-title.section-title-bold,
+h3.section-title.section-title-bold,
+h2.section-title.section-title-bold,
+h1.section-title.section-title-bold,
+h4.section-title.section-title-normal,
+h3.section-title.section-title-normal,
+h2.section-title.section-title-normal,
+h1.section-title.section-title-normal,
+h4.section-title.section-title-bold span,
+h3.section-title.section-title-bold span,
+h2.section-title.section-title-bold span,
+h1.section-title.section-title-bold span,
+.section-title-normal span{border:none !important;font-size:18px;}
+.is-divider,
+.is-divider.small{display:none;}
+
+/** CSS for blog **/
+.blog-post-inner{text-align: left;}
+
+
+/** CSS for cart **/
+.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents td.product-remove a{
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding: 2px 8px;
+    color: red;
+}
+
+/** CSS for account **/
+.woocommerce-MyAccount-content{max-width:1250px;margin:0 auto;padding:0 15px;}
+
+/** General CSS **/
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
+
+@media only screen and (min-width:49em){
+
+}
+

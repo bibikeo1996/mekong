@@ -1,0 +1,197 @@
+:root {
+  --color-main: #ea4544;
+  --linear-main: linear-gradient(160deg, #fe2f05 0, #ff6d10 100%);
+  --green-light: #f5f5f5;
+  --color-second: #fe9739;
+}
+.survey {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+}
+.survey-inner {
+  background: var(--linear-main);
+  color: #fff;
+  padding: 15px 0;
+  padding-bottom: 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.survey-head {
+  padding: 0 15px;
+  border-bottom: 1px solid #fff7f72e;
+  padding-bottom: 15px;
+}
+.survey-body {
+  padding: 15px;
+  border-bottom: 1px solid #fff7f72e;
+  background: #fff;
+  color: #333;
+  padding-top: 30px;
+}
+.survey-body .form-group:last-child {
+  margin-bottom: 0;
+}
+.survey-head h3 {
+  margin: 0;
+  font-size: 14px;
+  color:#fff;
+}
+.survey-body .form-group {
+  margin-bottom: 15px;
+}
+.survey-body .form-group label {
+  font-weight: normal;
+  font-size: 14px;
+    margin-bottom: 0;
+
+}
+.survey-footer {
+  padding: 0 15px;
+}
+.star-rating__stars {
+  position: relative;
+  
+  width: 10rem;
+  background: url(off.svg);
+  background-size: 2rem 5rem;
+  height: 70px;
+}
+.star-rating__label {
+  position: absolute;
+  height: 100%;
+  background-size: 2rem 5rem;
+}
+.star-rating__input {
+  margin: 0;
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.star-rating__stars .star-rating__label:nth-of-type(1) {
+  z-index: 5;
+  width: 20%;
+}
+.star-rating__stars .star-rating__label:nth-of-type(2) {
+  z-index: 4;
+  width: 40%;
+}
+.star-rating__stars .star-rating__label:nth-of-type(3) {
+  z-index: 3;
+  width: 60%;
+}
+.star-rating__stars .star-rating__label:nth-of-type(4) {
+  z-index: 2;
+  width: 80%;
+}
+.star-rating__stars .star-rating__label:nth-of-type(5) {
+  z-index: 1;
+  width: 100%;
+}
+.star-rating__input:checked + .star-rating__label,
+.star-rating__input:focus + .star-rating__label,
+.star-rating__label:hover {
+  background-image: url(on.svg);
+}
+.star-rating__label:hover ~ .star-rating__label {
+  background-image: url(off.svg);
+}
+.star-rating__input:focus ~ .star-rating__focus {
+  position: absolute;
+  top: -0.25em;
+  right: -0.25em;
+  bottom: -0.25em;
+  left: -0.25em;
+  outline: 0.25rem solid lightblue;
+}
+.star-rating__input:focus,.star-rating__input:active {
+  outline: none!important;
+}
+.survey-toggle {
+  position: absolute;
+  right: 0;
+  top: -37px;
+  background: var(--color-main);
+  border: none;
+  box-shadow: none;
+  padding: 10px 15px;
+  display: block;
+  color: #fff;
+}
+.radio-input {
+  display: none!important;
+}
+
+.radio-label {
+  width: 10px;
+  height: 10px;
+  border-radius: 2rem;
+  background-color: #eee;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 1rem;
+  box-shadow: 0 0 0 4px #eee;
+  transition: all 0.25s linear;
+}
+
+.radio-input:checked + .radio-label {
+  box-shadow: 0 0 0 4px #fff, 0 0 0 6px #fd656b;
+  background-color: #fd656b;
+}
+fieldset.star-rating {
+  padding-left: 10px;
+}
+.survey-body {
+  position: absolute;
+}
+.survey-body.active {
+  position: inherit;
+}
+.survey-head {
+  cursor: pointer;
+}
+.survey-body-title {
+  color: var(--color-main);
+  margin-bottom: 30px;
+  margin-top: 0;
+  font-size: 14px;
+}
+.form-group.rating-textarea {
+  margin-top: 15px;
+}
+
+.survey .form-control {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.text-right {
+  text-align: right;
+}
+.survey-body .text-success {
+  margin-top: 0;
+  color: green;
+}
+.btn-primary {
+  background: var(--color-main);
+  color: #fff;
+}
+.btn {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}

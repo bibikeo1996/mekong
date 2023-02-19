@@ -1,0 +1,176 @@
+.mb-ecommerce-buttons li {
+  list-style: none;
+}
+
+.mb-ecommerce-buttons li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mb-ecommerce-buttons {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.mb-ecommerce-buttons li a {
+  text-decoration: none;
+  border: 1px solid;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: red;
+  transition: 0.5s linear;
+  min-width: 150px;
+  text-align: center;
+}
+
+.mb-ecommerce-buttons li:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.mb-ecommerce-buttons li a:hover {
+  background-color: red;
+  color: #fff;
+}
+.mb-hpwc-quickbuy button.single_add_to_cart_button.loading:after {
+  display: none;
+}
+.mb-hpwc-quickbuy button.single_add_to_cart_button.button.alt.loading {
+  color: #fff;
+  pointer-events: none !important;
+}
+.mb-hpwc-quickbuy button.mb-buynow-button {
+  position: relative;
+  color: rgba(255, 255, 255, 0.05);
+}
+.mb-hpwc-quickbuy button.mb-buynow-button:after {
+  animation: spin 500ms infinite linear;
+  border: 2px solid #fff;
+  border-radius: 32px;
+  border-right-color: transparent !important;
+  border-top-color: transparent !important;
+  content: "";
+  display: block;
+  height: 16px;
+  top: 50%;
+  margin-top: -8px;
+  left: 50%;
+  margin-left: -8px;
+  position: absolute;
+  width: 16px;
+}
+.mb-buynow-button {
+    font-size: medium;
+    padding: 10px 15px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    background-color: #ed1c24;
+    border:1px solid #ed1c24;
+    padding: 1rem 2rem;
+    color:#fff;
+}
+.wrapper__payment-thanks .desc__price-thanks {
+  background: #FEEFB3;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.wrapper__payment-thanks {
+  text-align: center;
+}
+.mb_hpwc_invoice_vat {
+  background: #eee;
+  padding: 10px;
+  border-radius: 3px;
+}
+.mb_hpwc_invoice_vat_wrap {
+  display: none;
+}
+label.mb_hpwc_invoice_vat_label {
+  display: block;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+.mb_hpwc_invoice_vat_wrap fieldset {
+  margin: 10px 0;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #b0aeae;
+}
+.mb_hpwc_invoice_vat_wrap fieldset legend {
+  background: transparent;
+  padding: 0 5px;
+  margin: 0 0 0 10px;
+  font-size: 14px;
+  display: inline;
+  width: inherit;
+  border: 0;
+  text-transform: none;
+  color: #000;
+}
+.mb_hpwc_invoice_vat_wrap fieldset p {
+  margin-bottom: 10px;
+}
+.mb_hpwc_invoice_vat_wrap fieldset p:last-child {
+  margin-bottom: 0;
+}
+.active_invoice_vat .mb_hpwc_invoice_vat_wrap {
+  display: block;
+}
+.single-product div#tab-description {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 25px;
+}
+.single-product .tab-panels div#tab-description.panel:not(.active) {
+  height: 0 !important;
+}
+.mbhp_wc_btn_readmore {
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  width: 100%;
+  max-width: 100% !important;
+  background: #fff;
+}
+.mbhp_wc_btn_readmore:before {
+  height: 55px;
+  margin-top: -45px;
+  content: "";
+  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff00', endColorstr='#ffffff',GradientType=0 );
+  display: block;
+}
+.mbhp_wc_btn_readmore a {
+  color: #318A00;
+  display: block;
+}
+.mbhp_wc_btn_readmore a:after {
+  content: '';
+  width: 0;
+  right: 0;
+  border-top: 6px solid #318A00;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  display: inline-block;
+  vertical-align: middle;
+  margin: -2px 0 0 5px;
+}
+.mbhp_wc_btn_readmore_less a:after {
+  border-top: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #318A00;
+}
+.mbhp_wc_btn_readmore_less:before {
+  display: none;
+}
+p#billing_address_1_field {
+  width: 100%;
+}

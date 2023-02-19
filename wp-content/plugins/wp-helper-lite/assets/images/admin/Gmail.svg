@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="30px" viewBox="0 0 39 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Gmail_icon_(2020)</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="WPHelper_SMTPMail_Dakichhoat" transform="translate(-491.000000, -441.000000)" fill-rule="nonzero">
+            <g id="Gmail_icon_(2020)" transform="translate(491.000000, 441.000000)">
+                <path d="M2.65909091,30 L8.86363636,30 L8.86363636,14.7761194 L0,8.05970149 L0,27.3134328 C0,28.8 1.19215909,30 2.65909091,30" id="Path" fill="#4285F4"></path>
+                <path d="M30.1363636,30 L36.3409091,30 C37.8122727,30 39,28.7955224 39,27.3134328 L39,8.05970149 L30.1363636,14.7761194" id="Path" fill="#34A853"></path>
+                <path d="M30.1363636,3.13432836 L30.1363636,14.7761194 L39,8.05970149 L39,4.47761194 C39,1.15522388 35.24625,-0.73880597 32.6181818,1.25373134" id="Path" fill="#FBBC04"></path>
+                <polyline id="Path" fill="#EA4335" points="8.86363636 14.7761194 8.86363636 3.13432836 19.5 11.1940299 30.1363636 3.13432836 30.1363636 14.7761194 19.5 22.8358209"></polyline>
+                <path d="M0,4.47761194 L0,8.05970149 L8.86363636,14.7761194 L8.86363636,3.13432836 L6.38181818,1.25373134 C3.74931818,-0.73880597 0,1.15522388 0,4.47761194" id="Path" fill="#C5221F"></path>
+            </g>
+        </g>
+    </g>
+</svg>
